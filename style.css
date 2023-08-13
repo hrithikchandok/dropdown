@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+
+  align-items: center;
+  margin: auto;
+}
+.country {
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  /* height: 10rem; */
+  width: 18rem;
+}
+.country1 {
+  border: 2px solid blue;
+  height: 10rem;
+  width: 15rem;
+  overflow: scroll;
+}
+.hide {
+  display: none;
+}
